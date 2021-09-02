@@ -1,0 +1,297 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url(foto1.jpg);
+    background-position: 0px;
+    background-size: 200%;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 60px;
+    float:right;
+    font-weight:bold;
+    font-family: 'comic sans ms';
+    color:#03fcf0;
+
+}
+.menu{
+    float:left;
+}
+nav{
+    width:100%;
+    margin: auto;
+    line-height: 50px;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top : 0;
+    background: #FFFFFF;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    float:left;
+}
+nav ul li a{
+    color: #185754;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+section{
+    margin: auto;
+    display:flex;
+    margin-bottom: 50px;
+}
+.rounded-image{
+    border-radius:1000px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+}
+section img {
+  margin-top:auto;
+  display: block;
+  width: 500px;
+  height: 350px;
+}
+.kolom{
+    margin: top 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-family:'comic sans ms';
+    font-weight: bold;
+    font-size : 25px;
+    text-align: center;
+    color: #eb3489;
+    padding: 20px 0px 0px 0px;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #eb3489;
+    text-align: center;
+    line-height: 50px;
+}
+
+.kolom .isi{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 25px 50px 25px;
+    position: block;
+    text-align: center;
+    font-family:cursive;
+
+}
+
+.tabel{
+    margin: 50px;
+    font-family: cursive;
+    padding-bottom: 0%;
+    float:center;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+
+.alamat{
+    margin:30px;
+    padding-bottom: 0px;
+    margin-right: auto;
+    font-family: cursive;
+    float:left;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+
+.No{
+    margin: 20px;
+    float : center;
+    margin:auto;
+    font-family: cursive;
+    padding-bottom: 0%;
+    float:center;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+
+.email{
+    margin: 20px;
+    padding : 0px;
+    margin: auto;
+    font-family: cursive;
+    padding-bottom: 0%;
+    float:center;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+.isialamat{
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+    padding: auto;
+    text-align: left;
+    font-family:cursive;
+    color: #eb3489;
+}
+
+.isinohp{
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+    padding: auto;
+    text-align: left;
+    font-family:cursive;
+    color: #eb3489;
+}
+
+.isiemail{
+    font-size: small;
+    font-weight: bold;
+    margin: 0px;
+    padding: auto;
+    text-align: left;
+    font-family:cursive;
+    color: #eb3489;
+}
+
+.mk{
+   font-size: large;
+   font-weight: bold;
+   font-family: cursive;
+   margin:auto;
+   text-align: center;
+   line-height: 50px;
+   color: #2d9161;
+}
+.my{
+    font-size: large;
+   font-weight: bold;
+   font-family: cursive;
+   margin:auto;
+   text-align: center;
+   line-height: 50px;
+   color: #2d9161;
+}
+
+.pendidikan{
+    margin: 0px;
+    padding:0px;
+    text-decoration: none;
+}
+
+.formal{
+    margin: 50px;
+    font-family: cursive;
+    padding-bottom: 0%;
+    float:center;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+
+
+.sd{
+    font-size: large;
+    font-weight: 650;
+    float:center;
+    margin-inline-start: auto;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: #e6b522;
+}
+
+.sm{
+    font-size: large;
+    font-weight: 650;
+    float:center;
+    margin-inline-start: auto;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: #e6b522;
+}
+.sman{
+    font-size: large;
+    font-weight: 650;
+    float:center;
+    margin-inline-start: auto;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: #e6b522;
+}
+
+
+.pt{
+    font-size: large;
+    font-weight: 650;
+    float:center;
+    margin-inline-start: auto;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: #e6b522;
+}
+
+.ability{
+    margin: 50px;
+    font-family: cursive;
+    padding-bottom: 0%;
+    float:center;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+
+.LA{
+    margin: 50px;
+    font-family: cursive;
+    padding-bottom: 0%;
+    float:center;
+    font-size: large;
+    font-weight: bold;
+    color:#014c8a ;
+}
+
+.kemampuan{
+    margin:50px; 
+    padding : 15px;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: dashed;
+    color: #230e69;
+    font-size: large;
+}
+
+.Bahasa{
+    margin:50px; 
+    padding : 15px;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: dashed;
+    color: #9e1111;
+    font-size: large;
+}
